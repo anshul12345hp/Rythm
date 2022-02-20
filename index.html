@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <link rel="icon" href="Media/favicon.svg" type="image/x-icon" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora&display=swap"
+      rel="stylesheet"
+    />
+    <title>Rythm</title>
+  </head>
+  <body>
+    <div id="grid-tempalte">
+      <div id="navigation-bar">
+        <img id="logo" src="Media/Logo.svg" alt="" />
+        <button class="button navigation-red-bg" id="home"><p>Home</p></button>
+        <button class="button navigation-red-bg" id="browse">
+          <p>Browse</p>
+        </button>
+        <button class="button navigation-red-bg" id="favorite">
+          <p>Favorite</p>
+        </button>
+        <button class="button navigation-red-bg" id="library">
+          <p>Library</p>
+        </button>
+        <div id="music-cover">
+          <img
+            src="https://i.pinimg.com/originals/ea/1f/64/ea1f64668a0af149a3277db9e9e54824.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <div id="main-content">
+        <div>
+          <input type="text" placeholder="   Search.." />
+        </div>
+      </div>
+      <div id="rigth-menu">
+        <div>
+          <img src="Media/icons/user.png" alt="" />
+          <p>Ujjwal</p>
+          <img src="Media/icons/down-arrow.png" alt="" />
+          <img src="Media/icons/setting.png" alt="" />
+        </div>
+        <div></div>
+      </div>
+
+      <div id="music-player">
+        <div class="name-artist">
+          <p>Intense</p>
+          <p>AP Dhillon</p>
+        </div>
+        <div>
+          <div id="music-controls">
+            <button class="button" id="shuffle"></button>
+            <button class="button" id="back"></button>
+            <button class="button" id="play"></button>
+            <button class="button" id="next"></button>
+            <button class="button" id="repeat"></button>
+          </div>
+
+          <div>
+            <div class="song-slider">
+              <input type="range" value="0" class="seek-bar" />
+              <span class="current-time">00:00</span>
+              <span class="song-duration">00:00</span>
+            </div>
+          </div>
+        </div>
+        <div>
+          <button class="button" id="lyrics"></button>
+
+          <button class="button" id="sound"></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>

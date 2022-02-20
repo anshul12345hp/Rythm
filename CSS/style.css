@@ -1,0 +1,324 @@
+body {
+  margin: 0px 0px 0px 0px;
+  color: white;
+}
+
+.button {
+  /* background-color: transparent; */
+  background-color: transparent;
+  border: 0px;
+  height: 100px;
+  width: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 5px;
+}
+.button:active {
+  transform: scale(0.95);
+}
+.navigation-red-bg:hover {
+  background-color: #e90606;
+}
+.navigation-red-bg p {
+  color: white;
+  margin: -45px 0px 0px 67px;
+  font-weight: 1000;
+  font-size: 22px;
+}
+#grid-tempalte {
+  display: grid;
+  grid-template-rows: 63rem 132px;
+  grid-template-columns: 22rem auto 30rem;
+}
+#navigation-bar {
+  background-color: #222222;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: flex-start;
+  align-items: flex-start;
+}
+#main-content {
+  background-color: #171717;
+}
+#main-content div:nth-child(1) {
+  display: flex;
+  justify-content: center;
+  background-image: url(https://in.bmscdn.com/nmcms/events/banner/desktop/media-desktop-ap-dhillon-live-in-goa-0-2021-12-20-t-7-58-43.jpg);
+  margin: 20px;
+  border-radius: 10px;
+  /* width: 100%; */
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: 1436px;
+}
+#main-content div:nth-child(1) input {
+  width: 40vw;
+  height: 45px;
+  margin: 30px 0px 0px 0px;
+  border: 0.5px solid black;
+  border-radius: 30px;
+}
+
+#main-content div input {
+  position: absolute;
+  padding: 0;
+}
+
+#rigth-menu {
+  display: flex;
+  flex-direction: column;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #171717;
+}
+#rigth-menu img {
+  height: 40px;
+  width: 40px;
+}
+#music-player {
+  background-color: #393939;
+  grid-column: 1/-1;
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+#music-player div:nth-child(2) {
+  display: flex;
+  display: flex;
+  flex-direction: column;
+}
+#music-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 0px 10px 0px;
+}
+#music-player div:nth-child(3) {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+#music-player div:nth-child(3) button {
+  margin: 0px 35px -10px 0px;
+}
+
+/* buttons */
+#play {
+  background-image: url(../Media/icons/play-button.png);
+  height: 60px;
+  width: 60px;
+  margin: 5px 10px 0px 10px;
+}
+#back {
+  background-image: url(../Media/icons/previous.png);
+  height: 45px;
+  width: 45px;
+  margin: 5px 10px 0px 10px;
+}
+#next {
+  background-image: url(../Media/icons/next.png);
+  height: 45px;
+  width: 45px;
+  margin: 5px 10px 0px 10px;
+}
+#shuffle {
+  background-image: url(../Media/icons/shuffle.png);
+  height: 25px;
+  width: 25px;
+  margin: 5px 10px 0px 10px;
+}
+#repeat {
+  background-image: url(../Media/icons/replay.png);
+  height: 25px;
+  width: 25px;
+  margin: 5px 10px 0px 10px;
+}
+#lyrics {
+  background-image: url(../Media/icons/song-lyrics.png);
+  height: 30px;
+  width: 30px;
+  margin: 5px 5px 40px 5px;
+}
+
+#sound {
+  background-image: url(../Media/icons/volume.png);
+  height: 30px;
+  width: 30px;
+  margin: 5px 5px 40px 5px;
+}
+#home {
+  background-image: url(../Media/icons/home.png);
+  height: 25px;
+  width: 25px;
+  margin: 5px 0px 0px 20px;
+  padding: 60px 310px 0px 0px;
+  background-size: 30px;
+  background-position-y: center;
+  background-position-x: 12px;
+  border-radius: 10px;
+}
+#browse {
+  background-image: url(../Media/icons/grid.png);
+  height: 25px;
+  width: 25px;
+  margin: 5px 0px 0px 20px;
+  padding: 60px 310px 0px 0px;
+  background-size: 30px;
+  background-position-y: center;
+  background-position-x: 12px;
+  border-radius: 10px;
+}
+#favorite {
+  background-image: url(../Media/icons/favourite.png);
+  height: 25px;
+  width: 25px;
+  margin: 5px 0px 0px 20px;
+  padding: 60px 310px 0px 0px;
+  background-size: 30px;
+  background-position-y: center;
+  background-position-x: 12px;
+  border-radius: 10px;
+}
+#library {
+  background-image: url(../Media/icons/headphone.png);
+  height: 25px;
+  width: 25px;
+  margin: 5px 0px 0px 20px;
+  padding: 60px 310px 0px 0px;
+  background-size: 30px;
+  background-position-y: center;
+  background-position-x: 12px;
+  border-radius: 10px;
+}
+/* images */
+#logo {
+  width: 220px;
+  height: 80px;
+  margin: 35px 0px 35px 55px;
+}
+#music-cover img {
+  height: 275px;
+  width: 275px;
+}
+#music-cover {
+  display: inline-block;
+  margin: 286px 0px 0px 35px;
+}
+
+.name-artist {
+  color: #e4e7e5;
+}
+.name-artist p:nth-child(1) {
+  color: #e4e7e5;
+  font-size: 50px;
+  font-family: "Oswald", sans-serif;
+  margin: -10px 0px -11px 30px;
+}
+.name-artist p:nth-child(2) {
+  color: #e4e7e5;
+  font-size: 20px;
+  font-family: "Oswald", sans-serif;
+  margin: 0px 0px 0px 30px;
+}
+
+#rigth-menu div:nth-child(1) {
+  background-color: RGB(30, 30, 30);
+  border-radius: 10px;
+  margin: 15px 15px 15px 0px;
+  height: 85px;
+  width: 465px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#rigth-menu div:nth-child(2) {
+  background-color: RGB(30, 30, 30);
+  border-radius: 10px;
+  margin: 15px 15px 15px 0px;
+  margin: 0px 0px 15px 0px;
+  height: 870px;
+  width: 465px;
+}
+#rigth-menu p {
+  display: inline-block;
+  font-family: "Sora", sans-serif;
+  font-weight: 1000;
+  font-size: 40px;
+}
+
+/* SLIDER */
+.controls {
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.play-btn {
+  position: relative;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: hsl(0, 97%, 46%);
+  cursor: pointer;
+  border: none;
+}
+
+.play-btn span {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translateY(-50%);
+  width: 10px;
+  height: 30px;
+  border-radius: 2px;
+  background: hsl(0, 97%, 46%);
+  transition: 0.5s;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.play-btn span:nth-child(2) {
+  left: 55%;
+  transform-origin: center;
+}
+
+.current-time {
+  font-size: 15px;
+  font-family: "Sora", sans-serif;
+}
+.song-duration {
+  font-size: 15px;
+  font-family: "Sora", sans-serif;
+}
+
+.song-duration {
+  position: absolute;
+  right: 0;
+}
+.song-slider {
+  width: 100%;
+  position: relative;
+}
+
+.seek-bar {
+  -webkit-appearance: none;
+  width: 100%;
+  height: 5px;
+  border-radius: 10px;
+  background: hsl(0, 17%, 94%);
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.seek-bar::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 1px;
+  height: 20px;
+  box-shadow: -400px 0 0 400px hsl(0, 97%, 46%);
+}
